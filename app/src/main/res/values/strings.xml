@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">IsCoolApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_settings2">Sair</string>
+    <string name="ranking">Ranking</string>
+    <string name="title_activity_menu_professor">MenuProfessor</string>
+    <string name="title_activity_tela_de_provas_do_professor">TelaDeProvasDoProfessor</string>
+    <string name="title_activity_menu_aluno">MenuAluno</string>
+    <string name="title_activity_tela_de_alunos_do_professor">TelaDeAlunosDoProfessor</string>
+    <string name="title_activity_tela_de_provas_do_aluno">TelaDeProvasDoAluno</string>
+    <string name="title_activity_tela_perfil_aluno_do_professor">TelaPerfilAlunoDoProfessor</string>
+    <string name="title_activity_camera_correcao">CameraCorrecao</string>
+    <string name="title_activity_nota_do_aluno">NotaDoAluno</string>
+    <string name="title_activity_tela_mensagens">TelaMensagens</string>
+    <string name="title_activity_media_da_turma">MediaDaTurma</string>
+    <string name="title_activity_media_do_aluno">MediaDoAluno</string>
+    <string name="title_activity_menu_responsavel">MenuResponsavel</string>
+    <string name="title_activity_login_responsavel">LoginResponsavel</string>
+    <string name="title_activity_disciplinas_filho">DisciplinasFilho</string>
+    <string name="title_activity_explicacao">DisciplinasFilho</string>
+    <string name="title_activity_notas_filho">NotasFilho</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_config">Configurações</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">VAMOS LÁ</string>
+
+    <string name="slide_1_title">SEJA BEM-VINDO!</string>
+    <string name="slide_1_desc">A isCool veio para facilitar todo o gerenciamento de sua Escola!</string>
+
+    <string name="slide_2_title">   NOTAS NA HORA!</string>
+    <string name="slide_2_desc">Veja suas notas de maneira simples e inovadora!</string>
+
+    <string name="slide_3_title">DÚVIDAS?</string>
+    <string name="slide_3_desc">Use nosso chat para tirar suas dúvidas com a sua turma e professores!</string>
+
+    <string name="slide_4_title">    SEMPRE INFORMADO!</string>
+    <string name="slide_4_desc">Nosso Feed de notícias irá deixar você sempre por dentro das novidades da sua escola!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="a"><b>a) </b></string>
+    <string name="b"><b>b) </b></string>
+    <string name="c"><b>c) </b></string>
+    <string name="d"><b>d) </b></string>
+    <string name="e"><b>e) </b></string>
+    <string name="resposta_correta"><i>Resposta Correta: </i></string>
+    <string name="resposta_aluno"><i>Resposta do Aluno: </i></string>
+    <string name="explicacao"><i>Explicação: </i></string>
+
+</resources>

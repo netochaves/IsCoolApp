@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="easii.com.br.iscoolapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iscoolazul"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".main.MenuProfessor"
+            android:label="@string/title_activity_menu_professor" />
+        <activity
+            android:name=".main.MenuAluno"
+            android:label="@string/title_activity_menu_aluno" />
+        <activity
+            android:name=".main.TelaDeAlunosDoProfessor"
+            android:label="@string/title_activity_tela_de_alunos_do_professor" />
+        <activity
+            android:name=".main.TelaDeProvasDoAluno"
+            android:label="@string/title_activity_tela_de_provas_do_aluno" />
+        <activity
+            android:name=".main.TelaPerfilAlunoDoProfessor"
+            android:label="@string/title_activity_tela_perfil_aluno_do_professor"
+            android:noHistory="true" />
+        <activity
+            android:name=".main.CameraCorrecao"
+            android:label="@string/title_activity_camera_correcao" />
+
+        <service android:name=".services.ServiceUploadFoto" />
+
+        <activity
+            android:name=".main.NotaDoAluno"
+            android:label="@string/title_activity_nota_do_aluno" />
+        <activity
+            android:name=".main.TelaMensagens"
+            android:label="@string/title_activity_tela_mensagens"
+            android:launchMode="singleTask" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".graficos.MediaDaTurma"
+            android:label="@string/title_activity_media_da_turma"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".graficos.MediaDoAluno"
+            android:label="@string/title_activity_media_do_aluno"
+            android:screenOrientation="landscape" />
+        <activity android:name=".main.RankingProva" />
+        <activity android:name=".main.PerfilVisualizado" />
+        <activity
+            android:name=".main.MenuResponsavel"
+            android:label="@string/title_activity_menu_responsavel"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".main.LoginResponsavel"
+            android:label="@string/title_activity_login_responsavel"
+            android:noHistory="true">
+            android:theme="@style/MyMaterialTheme">
+        </activity>
+        <activity
+            android:name=".main.DisciplinasFilho"
+            android:label="@string/title_activity_disciplinas_filho"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".main.NotasFilho"
+            android:label="@string/title_activity_notas_filho"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".main.Config" />
+        <activity
+            android:name=".main.TelaExplicacao"
+            android:label="@string/title_activity_explicacao"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name=".main.ActivityWelcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

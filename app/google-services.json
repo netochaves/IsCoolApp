@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "238414341071",
+    "firebase_url": "https://segundoprojeto-61e63.firebaseio.com",
+    "project_id": "segundoprojeto-61e63",
+    "storage_bucket": "segundoprojeto-61e63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238414341071:android:2305558b1b7ed8d7",
+        "android_client_info": {
+          "package_name": "easii.com.br.iscoolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238414341071-k72qtqm8lmgoob4h7sjshmtsehk9airo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOsmcYRv78mIMU_qmxOZeS950l2XGfE3Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
